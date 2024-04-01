@@ -127,6 +127,15 @@
     height: 70px;
 }
 
+.pokemon .detail .bImage {
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+}
+
 .pagination {
     display: flex;
     flex-direction: row;
@@ -138,10 +147,10 @@
 
 .pagination button {
     padding: .25rem .5rem;
-    margin: .25rem 0;
-    font-size: .625rem;
-    color: #fff;
-    background-color: #6c79db;
+    margin: 25.rem 0;
+    font-size: .625 rem;
+    color: white;
+    background-color: #0679db;
     border: none;
     border-radius: 1rem;
 }

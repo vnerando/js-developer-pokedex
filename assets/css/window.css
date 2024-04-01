@@ -1,0 +1,118 @@
+dialog::backdrop {
+  background-color: rgb(0 0 0 / .2);
+}
+
+dialog {
+  border: none;
+  border-radius: 1rem;
+  box-shadow: 0 0 1rem;
+  width: 420px;
+  padding: 0;
+}
+
+dialog .info {
+  padding: 1rem
+}
+
+dialog .fechar {
+  border: none;
+  color: #fff;
+  background-color: transparent;
+  padding: .25rem 1rem;
+}
+
+dialog .fecharButton {
+  float: right;
+  opacity: 0.5
+}
+.pokemon .detail button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+dialog .name {
+  text-transform: capitalize;
+  font-size: 1.5rem;
+  padding: 0.5rem 0;
+  font-weight: bold;
+}
+
+dialog .number {
+  font-size: .75rem;
+  padding: 0.5rem 0;
+}
+
+dialog .types {
+  padding: .5rem 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+dialog .type {
+  color: #fff;
+  padding: .25rem .5rem;
+  margin: .25rem 0;
+  font-size: .625rem;
+  border-radius: 1rem;
+  filter: brightness(1.1);
+  text-align: center;
+}
+
+dialog .tab .about{
+  padding: 0;
+  color: #000;
+}
+
+dialog .image{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+dialog .tab .altura_peso{
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  justify-content: space-around;
+}
+
+dialog .tab .statsName{
+  list-style: none;
+  text-align: right;
+  padding: 0;
+  width: 40%;
+}
+
+dialog .tab .baseStats{
+  list-style: none;
+  text-align: center;
+  padding: 0;
+  width: 60%;
+}
+
+dialog .tab .bstats {
+  display: flex;
+  width: 100%;
+}
+
+dialog .tab .abilities {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  padding: 0;
+  color: #000;
+  list-style: none;
+}
+
+dialog .tab .move {
+  list-style: none;
+  column-count: 2;
+  margin: 16px auto;
+  padding: 0;
+  text-align: center;
+}
